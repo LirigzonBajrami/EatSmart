@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Relationship with css files -->
+    <link rel="stylesheet" href="css/meals.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
+    <script defer src="js/script.js"></script>
+
+    <!-- IOICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>EatSmart</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <a href="#" class="logo">Eat<span>Smart</span></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="index.html">Home</a></li>
+          <li><a class="main-nav-link" href="meals.html">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="testimonials.html">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="pricing.html">Pricing</a></li>
+          <li><a class="main-nav-link" href="about-us.html">About Us</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="sign-up.html">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <!-- Open mobile nav -->
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+
+        <!-- Close mobile nav -->
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+
+      <section class="hero-section">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              A healthy meal delivered to your door, every single day
+            </h1>
+            <p class="hero-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Distinctio itaque fugit alias incidunt quos sunt iste pariatur
+              quaerat obcaecati animi.
+            </p>
+            <a href="#" class="btn btn--cta margin-right-sm"
+              >Start eating well</a
+            >
+            <a href="#" class="btn btn--info">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-img">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>50,000+</span> meals last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img class="hero-img" src="img/hero.jpg" alt="woman eating food" />
+          </div>
+        </div>
+      </section>
+
+      <div class="container giff">
+        <img class="vegan-giff" src="img/veganGiff.webp" alt="" />
+      </div>
+
+      <!--  -->
+      <!-- MEALS SECTION -->
+      <!--  -->
+      <section class="section-meals">
+        <div class="container center-text">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">Best meals for best people</h2>
+        </div>
+        <div class="container grid grid--3-cols">
+          <!-- MEAL 1 -->
+          <div class="meal">
+            <img
+              src="img/meals/Optimized-meal-1.jpg"
+              alt="Pizza"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <!-- Meal Tags -->
+              <div class="meal-tags">
+                <span class="tag tag-vegetarian">Vegetarian</span>
+                <span class="tag tag-gluten-free">Gluten</span>
+              </div>
+
+              <!-- Other info about meal -->
+              <p class="meal-title">Pizza</p>
+              <ul class="meal-attributes">
+                <!-- 3 atributes about meal -->
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="pizza-outline"></ion-icon>
+                  <span><strong>980</strong>calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg;<strong> 87</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong>rating (632)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Meal 2 -->
+          <div class="meal">
+            <img
+              src="img/meals/Optimized-meal-2.jpg"
+              alt="Pizza"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <!-- Meal Tags -->
+              <div class="meal-tags">
+                <span class="tag tag-vegan">Vegan</span>
+              </div>
+
+              <!-- Other info about meal -->
+              <p class="meal-title">Vegan salad</p>
+              <ul class="meal-attributes">
+                <!-- 3 atributes about meal -->
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="pizza-outline"></ion-icon>
+                  <span><strong>980</strong>calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg;<strong> 87</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong>rating (632)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Meal 3 -->
+          <div class="meal">
+            <img
+              src="img/meals/Optimized-meal-3.jpg"
+              alt="Pizza"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <!-- Meal Tags -->
+              <div class="meal-tags">
+                <span class="tag tag-vegan">Vegan</span>
+              </div>
+
+              <!-- Other info about meal -->
+              <p class="meal-title">Vegan salad bowl</p>
+              <ul class="meal-attributes">
+                <!-- 3 atributes about meal -->
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="pizza-outline"></ion-icon>
+                  <span><strong>980</strong>calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg;<strong> 87</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong>rating (632)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Meal 4 -->
+          <div class="meal">
+            <img
+              src="img/meals/Optimized-meal-4.jpg"
+              alt="Pizza"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <!-- Meal Tags -->
+              <div class="meal-tags">
+                <span class="tag tag-gluten-free">Gluten-free</span>
+              </div>
+
+              <!-- Other info about meal -->
+              <p class="meal-title">Rustic Snack Platter</p>
+              <ul class="meal-attributes">
+                <!-- 3 atributes about meal -->
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="pizza-outline"></ion-icon>
+                  <span><strong>980</strong>calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg;<strong> 87</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong>rating (632)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Meal 5 -->
+          <div class="meal">
+            <img
+              src="img/meals/Optimized-meal-5.jpg"
+              alt="Pizza"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <!-- Meal Tags -->
+              <div class="meal-tags">
+                <span class="tag tag-vegetarian">Vegetarian</span>
+              </div>
+
+              <!-- Other info about meal -->
+              <p class="meal-title">Vegetarian salad</p>
+              <ul class="meal-attributes">
+                <!-- 3 atributes about meal -->
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="pizza-outline"></ion-icon>
+                  <span><strong>980</strong>calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg;<strong> 87</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong>rating (632)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Meal 6 -->
+          <div class="meal">
+            <img
+              src="img/meals/Optimized-meal-6.jpg"
+              alt="Pizza"
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <!-- Meal Tags -->
+              <div class="meal-tags">
+                <span class="tag tag-vegan">Vegan</span>
+              </div>
+
+              <!-- Other info about meal -->
+              <p class="meal-title">Vegan salad</p>
+              <ul class="meal-attributes">
+                <!-- 3 atributes about meal -->
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="pizza-outline"></ion-icon>
+                  <span><strong>980</strong>calories</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Nutriscore &reg;<strong> 87</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong>rating (632)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="logo footer-logo">Eat<span>Smart</span></a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2022 by EatSmart Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+
+          <address class="contacts">
+            <p>Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a>
+              <br />
+              <a class="footer-link" href="mailto:hello@eatsmart.com"
+                >hello@eatsmart.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Omnifood </a></li>
+            <li><a class="footer-link" href="#">For Business </a></li>
+            <li><a class="footer-link" href="#"> Cooking partners </a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center </a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

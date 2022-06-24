@@ -1,0 +1,78 @@
+.header {
+  height: 8rem;
+}
+.about-us {
+  background-color: #f5ebdc;
+}
+
+.about-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.about-us-header {
+  height: 23rem;
+  font-size: 9.6rem;
+  color: #f5ebdc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #502314;
+  margin-bottom: 3.2rem;
+}
+
+.about-us-text {
+  color: #502314;
+}
+
+.about-us-text h3 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.about-us-text p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 500;
+  margin-bottom: 5.4rem;
+}
+
+.contact {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.about-us-text strong {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.kosova-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10rem;
+  border-top: 1px solid #502314;
+}
+
+.kosova-map p {
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+  color: #502314;
+  padding-top: 4rem;
+}
+
+/* .kosovo-img {
+  width: 900px;
+  height: 600px;
+} */
+
+area {
+  display: block;
+  background-image: #502314;
+}

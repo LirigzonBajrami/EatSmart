@@ -1,0 +1,137 @@
+.header {
+  height: 8rem;
+}
+
+body {
+  background-color: #f5ebdc;
+}
+
+.cta {
+  display: grid;
+  width: 70%;
+  justify-self: center;
+  align-self: center;
+  border-radius: 22px;
+  background-color: #fff;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem;
+  color: #502314;
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem !important;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.cta-form {
+  display: grid;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+.cta-form input,
+select {
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  font-family: inherit;
+  color: inherit;
+  border: 1px solid #333;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.btn--form {
+  background-color: #d62300;
+  color: #fff;
+  align-self: end;
+  padding: 1.2rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 200px;
+}
+
+.btn--form:hover {
+  background-color: #9a1a00;
+}
+
+.cta *:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.4rem rgba(253, 242, 233, 0.509);
+}
+
+.sign-up-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.checkbox-form input {
+  width: auto;
+}
+
+.checkbox-form {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  align-items: start;
+}
+
+.account {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.account a:link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+.account a:link,
+.account a:visited {
+  position: relative;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.account a::after {
+  content: "";
+  position: absolute;
+  background-color: #d62300;
+  height: 3px;
+  width: 0px;
+  bottom: -5px;
+}
+
+.account a:hover::after {
+  width: 100%;
+}
+
+.account h3 {
+  font-size: 1.8rem;
+}
