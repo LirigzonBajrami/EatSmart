@@ -56,3 +56,33 @@
 .gallery-item img:hover {
   transform: scale(1.1);
 }
+
+.section-slider {
+  background-color: #fdf2e9;
+}
+
+.slider-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 6.2rem 3.2rem;
+}
+
+.carousel-inner {
+  border-radius: 1.2rem;
+}
+
+.slider-heading {
+  font-weight: 500;
+  color: #c23338;
+}
+
+.carousel-item {
+  border-radius: 1.2rem;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  border-radius: 1.2rem;
+  width: 100%;
+  height: 40rem;
+}
