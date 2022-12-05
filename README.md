@@ -1,2 +1,2 @@
 # EatSmart
-# Live Demo: https://eatssmart.netlify.app/
+Live Demo: https://eatssmart.netlify.app/
